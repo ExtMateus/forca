@@ -44,7 +44,7 @@ while (acertos > 0):
 
     print('')
     teste = input('\nO que voce acha: ')
-    
+
     clear()
 
     if (teste not in letrasTestadas) & (teste not in letras):
@@ -55,7 +55,7 @@ while (acertos > 0):
     else:
         letrasTestadas.append(teste)#adiciona o teste a lista de letras ja testadas
         for x in range(len(letras)):
-            if (teste == letras[x]):#checa se a letra esta certa 
+            if (teste == letras[x]):#checa se a letra esta certa
                 acertos = acertos - 1 #conta o acerto
 
     for numero in range(vidas):
@@ -79,5 +79,5 @@ while (acertos == 0):
 ⣾⣿⣷⣶⣭⣝⣒⣒⠶⠬⠭⠭⠭⠭⠭⠭⠭⣐⣒⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄\n\
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠄⠄⠄⠄⠄⠄⠄')
     acertos = acertos - 1
-   
+
 print(palavra)
